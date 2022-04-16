@@ -6,7 +6,6 @@ from models.dealer_model import *
 @app.route('/getAllRecordsWithOutAnyCondition', methods=['GET'])
 def getCustomRecords2112():
     log.info("getCustomRecords : Started")
-    dealer_result = []
     product_result = []
     dealer_code = request.args.get('dealer_code')
     log.debug("dealer_code is {}".format(dealer_code))
