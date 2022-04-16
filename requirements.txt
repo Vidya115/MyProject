@@ -1,0 +1,10 @@
+psycopg2
+flask
+request
+sqlalchemy
+jsonify
+flask_restful
+Api
+String
+Integer
+Base
